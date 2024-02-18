@@ -1,0 +1,74 @@
+
+body {
+    background-color: rgb(16, 16, 16) !important;
+    color: white;
+}
+
+.logo_img {
+    width: 5vh;
+    height: 5vh;
+}
+
+nav.navbar {
+    background-color: rgb(135, 71, 71);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: rgb(228, 228, 228);
+}
+.navbar a:hover {
+    color: rgb(178, 51, 51);
+}
+
+
+.bg-dark {
+    background-color: rgb(23, 23, 23) !important;
+}
+
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 40vh; 
+    color: white;
+}
+
+.glowing-text {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    animation: glow 1.5s infinite alternate;
+}
+
+.glowing-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #df0a18;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 4s;
+}
+
+.glowing-button:hover {
+    background-color: #0056b3;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #955d9e;
+    }
+    100% {
+        text-shadow: 0 0 20px #a72573, 0 0 30px #462847, 0 0 40px #f44df9;
+    }
+}
