@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9">
-	<url>
-        <loc>https://rosa-devs.github.io/rosa/</loc>
-        <lastmod>2024-02-18T17:53:43+00:00</lastmod>
-    </url>
-</urlset>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>https://rosa-devs.github.io/rosa/</loc>
+
+      <lastmod>2024-02-18T18:06:20+00:00</lastmod>
+   </url>
+
+</urlset> 
